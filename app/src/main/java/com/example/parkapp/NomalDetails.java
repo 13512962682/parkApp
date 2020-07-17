@@ -52,9 +52,14 @@ public class NomalDetails extends AppCompatActivity {
         final String name=intent.getExtras().getString("name");
         final Double latitude=intent.getExtras().getDouble("latitude");
         final Double longtitude=intent.getExtras().getDouble("longtitude");
-        final Double capacity=intent.getExtras().getDouble("capacity");
-        final Double distance=intent.getExtras().getDouble("distance");
+        final Integer capacity=intent.getExtras().getInt("capacity");
+        final Integer distance=intent.getExtras().getInt("distance");
         final String time=intent.getExtras().getString("time");
+
+        Log.d("hhh","###"+name);
+        Log.d("hhh","###"+capacity);
+        Log.d("hhh","###"+distance);
+
 //        longBookBack=findViewById(R.id.longBookBack);
 
         //获取地图控件引用
