@@ -22,3 +22,6 @@
 # 模客（api仿真）
 
 - http://mock-api.com/app.html#!/scene-activity
+
+# 百度SDK
+-http://lbsyun.baidu.com/index.php?title=androidsdk
